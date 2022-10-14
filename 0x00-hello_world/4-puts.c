@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
 *main -entry point
-
+*
 *Return: Alwats 0 (success)
 */
 int main(void)
