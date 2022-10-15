@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- * 
- * print lowercase alphabet
- * Return: 0
- */
+* main - Entry point
+* 
+* print lowercase alphabet
+* Return: 0
+*/
 int main(void)
 {
 	char ch='a';
