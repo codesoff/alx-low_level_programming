@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  *main - main block
- *get random number
- *if it is positive, negative, or zero
+ *get random number and print the number
+ *and if it is positive, negative, or zero
  *Return: 0
 */
 int main(void)
