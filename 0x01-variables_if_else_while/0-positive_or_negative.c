@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-
- * main - main block
+* main - main block
+*
 * Get a ramdom number and print the number
+*
 * and if it positive, negative, or zero
 * Return: 0
 */
