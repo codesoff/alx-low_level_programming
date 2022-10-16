@@ -14,6 +14,6 @@ b = 'q';
 for (ch = 'a'; ch <= 'z'; ch++)
 	if (ch != a && ch != b)
 		putchar(ch);
-putchar('\n')
+putchar('\n');
 	return (0);
 }
