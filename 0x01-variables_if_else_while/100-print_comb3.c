@@ -12,10 +12,12 @@ while (i < 90)
 {
 a = i % 10;
 b = i / 10;
-if (b < a) {
+if (b < a)
+{
 putchar(b + '0');
 putchar(a + '0');
-if (i < 89) {
+if (i < 89)
+{
 putchar(',');
 putchar(' ');
 }
