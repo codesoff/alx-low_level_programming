@@ -4,6 +4,7 @@
 /**
  * main Entry point
  * prints all single digit numbers of base 10
+ * with out using printf
  * Return: 0
  */
 int main(void)
