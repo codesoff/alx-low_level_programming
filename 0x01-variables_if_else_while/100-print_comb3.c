@@ -19,8 +19,8 @@ if (i < 89) {
 putchar(',');
 putchar(' ');
 }
-i++;
 }
+i++;
 }
 putchar('\n');
 return (0);
