@@ -7,7 +7,7 @@
 int _islower(int c)
 {
 char c;
-if (isupper(c))
+if (islower(c))
 	_putchar('1');
 else 
 	_putchar('0');
