@@ -2,7 +2,7 @@
 /**
  * _islower - checks lowercase
  * lowercase character
- * Return: 0
+ * Return: 0 or 1
  */
 int _islower(int c)
 {
