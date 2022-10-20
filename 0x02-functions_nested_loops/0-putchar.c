@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char i = '_putchar';
+char i = "_putchar";
 for (i = 0; i <= 1; i++)
 putchar(i);
 return 0;
