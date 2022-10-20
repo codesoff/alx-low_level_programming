@@ -6,7 +6,8 @@
  */
 int _isalpha(int c)
 {
-if (isupper(c) || islower(c))
+if (c >= 'a' && c <='z')
+	if (c >= 'A' && c <= 'Z')
 	return (1);
 return (0);
 }
