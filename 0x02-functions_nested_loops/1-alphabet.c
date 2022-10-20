@@ -4,7 +4,7 @@
  * prints alphabet,in lowercase
  * Return: no return
  */
-int main(void)
+void print_alphabet(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
