@@ -19,5 +19,4 @@ for (m = 0; m <= 59; m++)
 	_putchar('\n');
 }
 }
-return (0);
 }
