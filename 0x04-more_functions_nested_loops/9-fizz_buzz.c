@@ -5,7 +5,7 @@
  * multiple three print Fizz, five Buzz, both FizzBuzz
  * Return: 0
  */
-int main(void)
+int main()
 {
 	int i;
 	for (i = 1; i <= 100; i++)
