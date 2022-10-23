@@ -5,7 +5,7 @@
  * multiple three print Fizz, five Buzz, both FizzBuzz
  * Return: 0
  */
-int main()
+int main(void)
 {
 	int i;
 	for (i = 1; i <= 100; i++)
@@ -18,7 +18,8 @@ int main()
 			printf("FizzBuzz");
 		else
 			printf("%i", i);
-		printf(" ");
+		if (i < 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
