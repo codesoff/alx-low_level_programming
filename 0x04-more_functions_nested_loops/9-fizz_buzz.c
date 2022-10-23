@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers frfom 1 - 100
+ * main - Entry point
  * multiple three print Fizz, five Buzz, both FizzBuzz
  * Return: 0
  */
