@@ -3,17 +3,10 @@
 
 /**
  * main - check the code.
- *
- * Return: Always 0.
+ *@c: the character
+ * Return: return 1 if c is upper, else 0
  */
-int main(void)
+int _isupper(int c)
 {
-    char c;
-
-    c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
-    return (1);
-    c = 'a';
-    printf("%c: %d\n", c, _islower(c));
-    return (0);
+	return (c > 'A' && c < 'Z');
 }
