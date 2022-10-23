@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  * multiple three print Fizz, five Buzz, both FizzBuzz
