@@ -6,5 +6,7 @@
  */
 int _strlen(char *s)
 {
-	char ch = strlen(*s);
+	char ch;
+	for (ch = 0; s[ch] != '0'; ++ch)
+		return(i);
 }
