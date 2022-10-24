@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * main - Entry point
+ * Description: prints 1 - 100
  * multiple three print Fizz, five Buzz, both FizzBuzz
  * Return: 0
  */
