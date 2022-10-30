@@ -18,5 +18,5 @@ void print_rev(char *s)
 	}
 	for (g = 0; g < numb; g++)
 		_putchar(s[g]);
-	_putchar("\n");
+	_putchar('\n');
 }
