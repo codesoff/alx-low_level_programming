@@ -12,11 +12,11 @@ void print_rev(char *s)
 	for (numb = 0; s[numb] != '\0'; numb++);
 	for (g = 0; g < numb / 2; g++)
 	{
-		tmp = strg[g];
-		strg[g] = strg[numb - 1 - g];
-		strg[numb - 1 - g] = tmp;
+		tmp = s[g];
+		s[g] = s[numb - 1 - g];
+		s[numb - 1 - g] = tmp;
 	}
 	for (g = 0; g < numb; g++)
-		_putchar(strg[g]);
+		_putchar(s[g]);
 	_putchar("\n");
 }
