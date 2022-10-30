@@ -9,7 +9,7 @@ void print_rev(char *s)
 	int g, numb;
 	int tmp = 0;
 
-	for (numb = 0; s[numb] != '\0'; numb++);
+	for (numb = 0; s[numb] != 0; numb++);
 	for (g = 0; g < numb / 2; g++)
 	{
 		tmp = s[g];
