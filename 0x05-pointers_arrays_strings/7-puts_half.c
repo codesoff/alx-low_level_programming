@@ -9,5 +9,16 @@ void puts_half(char *str)
 {
 	int count;
 
-	for (count = 0; count <= *str; count++)
-
+	for (count = 0; count >= 0; count++)
+	{
+		if (count == '\0')
+			break;
+	}
+	if (count % 2 == 1)
+		i = count / 2;
+	else
+		i = (count - 1) / 2;
+	for (i++; i < count; i++)
+		_putchar(str[i]);
+	_putchar('\n');
+}
