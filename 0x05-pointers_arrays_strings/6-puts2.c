@@ -8,6 +8,7 @@
 void puts2(char *str)
 {
 	int count = 0;
+
 	for (count = 0; count >= 0; count++)
 	{
 		if (str[count] == '\0')
