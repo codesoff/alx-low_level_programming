@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * _puts_recursion - function that prints a string
+ * @s: string pointer
  * Return: no return
  */
 void _puts_recursion(char *s)
