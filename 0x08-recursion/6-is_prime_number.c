@@ -7,9 +7,10 @@
 int is_prime_number(int n)
 {
 	int i = 2, temp = 0;
+
 	if (n > 0)
 	{
-		is_prime_number (i <= n / 2);
+		is_prime_number(i <= n / 2);
 		{
 			if (n % i == 0)
 			{
