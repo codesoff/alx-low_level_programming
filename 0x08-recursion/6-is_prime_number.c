@@ -6,16 +6,16 @@
  */
 int is_prime_number(int n)
 {
-	int i, temp = 0;
+	int i = 2, temp = 0;
 	if (n > 0)
 	{
-		for (i = 2; i <= n / 2; i++)
+		is_prime_number (i <= n / 2);
 		{
 			if (n % i == 0)
 			{
 				temp++;
-				break;
 			}
+			i++;
 		}
 		if (temp == 0 && n != 1)
 		{
