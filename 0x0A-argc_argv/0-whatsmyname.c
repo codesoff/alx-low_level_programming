@@ -5,7 +5,7 @@
  * @argv: passed to main as an array of strings
  * Return: 0
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	printf("%s", argv[0]);
 	return (0);
