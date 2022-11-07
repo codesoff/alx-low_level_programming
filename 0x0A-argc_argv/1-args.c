@@ -5,4 +5,11 @@
  * @srgv: arguments passed to main as an array of strings
  * Return: 0
  */
-int main(
+int main(int argc __attribute__((unused)), char **argv)
+{
+	int i;
+	for (i = 0; i < argc; argv[i])
+	{
+		printf("%s\n", argv[i]);
+	}
+}
